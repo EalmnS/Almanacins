@@ -1,28 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EAlmanacin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <aside class="panel">
-            <nav class="menu">
-                <a href="#seccion1">Reloj Digital</a>
-                <a href="#seccion2">Eventos del Teclado</a>
-                <a href="#seccion3">Carrusel o Responsive slider</a>
-                <a href="#seccion4">Seccion 4</a>
-                <a href="#seccion5">Seccion 5</a>
+    <header class="header">
+        <section class="container-header">
+            <div class="logo">
+                <a href="#">Edgar</a>
+            </div>
+            <nav class="menu none">
+                <a href="#inicio">Home</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
             </nav>
-        </aside>
+        </section>
+        <button class="viewmenu" id="ocultar">
+            <?xml version="1.0" ?><svg data-name="Layer 45" height="24" id="Layer_45" viewBox="0 0 24 24" width="24"
+                xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15.643 18.357 14.229 16.943 19.186 12 14.279 7.107 15.693 5.693 22 12 15.643 18.357"
+                    class="abajo" style="fill:#4c9ae8" />
+                <polygon points="8.357 18.357 9.771 16.943 4.814 12 9.721 7.107 8.307 5.693 2 12 8.357 18.357"
+                    class="arriba none" style="fill:#4c9ae8" />
+            </svg>
+        </button>
     </header>
     <main>
+        <section class="hero content-view">
+            <div class="container-hero rotate-center">
+                <h1 class=" tracking-in-expand-fwd ">Hola soy <span>Edgar Almanacin</span>
+                </h1>
+                <h2 class="">Diseño de Páginas Web Peru, Arequipa</h2>
+                <button class="pressDownButton">
+                    <a href="#acerca">Ver Más</a>
+                </button>
+                <br>
+                <div class="cursor-pointer">
+                    <div class="Loader">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about content-view" id="acerca">
 
+            <div class="about-content flex">
+                <div class="sub-about flex flex-column">
+                    <div>
+                        <p class="">¿Quién soy?</p>
+                    </div>
+                    <div>
+                        <h2 class="">Edgar Almanacin</h2>
+                        <p class="">Mi nombre es Edgar Almanacin, soy Estudiante de Ingeniera de Sistemas e Informatica,
+                            en la Univarsidad Tecnologica</p>
+                        <p>constantemente aprendo nuevas tecnologías siendo autodidacta.</p>
+                        <p class="">Diseñador & Desarrollador Web</p>
+                        <hr/>
+                    </div>
+                </div>
+                <div class="sub-about">
+                    <img src="https://edsonrosales.online/img/computer-svg.svg" width="540"
+                        height="540" alt="Ilustración de persona acostada en sillón" />
+                </div>
+            </div>
+        </section>
+        <section class="services content-view" id="servicios">
+            services
+        </section>
+        <section class="portafolio content-view" id="portafolio">
+            portafolio
+        </section>
+        <section class="contact content-view" id="contacto">
+            contact
+        </section>
     </main>
     <footer>
-
+        <small>Por Deary</small>
     </footer>
+    <button class="toscroll vieworhidd">&#11014;</button>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
